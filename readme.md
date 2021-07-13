@@ -145,7 +145,7 @@ print(df)
 class_le = LabelEncoder()
 ```
 ### クラスラベルから整数に変換
-``` pyton
+``` python
 y = class_le.fit_transform(df['classlabel'].values)
 print(y)
 ```
