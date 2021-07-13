@@ -24,7 +24,7 @@
         A    B    C    D  
     0  1.0  2.0  3.0  4.0
 ### 欠損値の含む列を削除
-C DにそれぞれNan値があるため、出力されない
+C DにそれぞれNan値があるため、出力されない  
 `print(df.dropna(axis=1))`  
 出力値  
 
@@ -71,7 +71,7 @@ transformも使用可能
     ['blue', 'XL', 15.3, 'class2']
 ])`  
 
-列名
+列名  
 `df.columns = ['color', 'size', 'price', 'classlabel']`
 
 ### Tシャツのサイズと整数を対応させるdictionary ディクショナリーを作成し、自動変換させる
