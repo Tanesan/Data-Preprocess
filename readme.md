@@ -7,7 +7,9 @@
                          10.0,11.0,12.0,'''
 このデータは３列目の３行目、1列目の4行目がNan値で破損している。
 ### CSVとして上のものを読み取り
-`df = pd.read_csv(StringIO(csv_data))`
+``` python
+df = pd.read_csv(StringIO(csv_data))
+```
 ### 欠損値の数　取得
 `print(df.isnull().sum())`  
 #### 出力値
